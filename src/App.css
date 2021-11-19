@@ -1,7 +1,3 @@
-.App {
-  text-align: center;
-}
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -36,3 +32,53 @@
     transform: rotate(360deg);
   }
 }
+
+.addPeopleInput {
+  width: 360px;
+  margin-top: 20px !important;
+}
+.chip {
+  margin-top: 20px !important;
+}
+.relation {
+  font-family: 14px;
+  color: #333;
+  float: left;
+}
+.errorText {
+  color: red;
+  text-align: center;
+  margin-top: 10px;
+}
+.addPeopleButton {
+  width: 360px;
+  margin-top: 20px !important;
+  display: block;
+}
+.sourceName {
+  border: 1px solid #2f80ed !important;
+}
+.targetName {
+  border: 1px solid #219653 !important;
+}
+.pathDiv {
+  background-color: #dceafd;
+  color: #4f4f4f;
+  height: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 360px;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+@media (max-width:600px) {
+  .scroll {
+    width: 360px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    margin: 4px, 4px;
+    padding: 4px;
+  }
+}
+
